@@ -1,7 +1,7 @@
 /**
- * @name DisveloperBot
+ * @name miBot
  * @author Gátomo
- * @description Bot de disvelopers
+ * @description Bot mio
  * @license MIT
  * @version 1.0.0
  */
@@ -113,8 +113,6 @@ client.once('ready', () => {
 	console.log('Ok, funcionando!');
 
 	const activities = [
-		`Bot oficial de New | Games Media (/help)`,
-		`Desarrollado por Gátomo y Disvelopers`,
 		'/help para ayuda'
 	]
 	setInterval(() => {
@@ -191,7 +189,7 @@ client.on('interactionCreate', async interaction => {
 				.setColor('BLUE')
 				.addField('Argumentos', 'title: Título del embed\ndescription: Descripción del embed\ncolor: Color del embed\nthumbnail: Imagen del embed\nimage: Imagen del embed\nauthor: Autor del embed\nfooter: Pie de página del embed\ntimestamp: Marca de tiempo del embed\nfieldtitleone: Título del primer campo\nfieldtitletwo: Título del segundo campo\nfieldtitlethree: Título del tercer campo\nfieldvalueone: Texto del primer campo\nfieldvaluetwo: Texto del segundo campo\nfieldvaluethree: Texto del tercer campo')
 				.addField('Campos', 'Para poner campos, tienes que rellenar `fieldtitle` y `fieldvalue` para que funcione correctamente. Puedes poner un máximo de 3 campos')
-				.addField('Agradecimientos', '**-** Disvelopers - https://discord.gg/disvelopers\n**-** Gátomo (programador) - https://discord.gg/E2yBpMq2Km')
+				.addField('Agradecimientos','\n**-** Gátomo (programador) - https://discord.gg/E2yBpMq2Km')
 				.setTimestamp()
 
 			return await interaction.reply({
