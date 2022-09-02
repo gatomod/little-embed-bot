@@ -1,4 +1,4 @@
 # Little embed bot
-bot que te pone el embed facilmente. es muy ez
+bot que te pone el embed facilmente. Úsalo para tu comunidad
 
-*Creado por Gátomo - MIT license*
+*Creado por Gátomo - GPL3 license*
